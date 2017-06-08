@@ -90,6 +90,10 @@ p{
   display: block;
 }
 
+.End{
+  color: grey;
+  font-size: 1em;
+}
 
 @media (max-width: 765px){
   body{
