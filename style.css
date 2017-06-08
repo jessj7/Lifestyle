@@ -21,11 +21,12 @@ main{
   background: white;
   padding-bottom: 10px;
 }
-}
 .GIF{
   padding-right: 50%;
   width: 100%
 }
+}
+
 
 div{
   display: block;
@@ -71,15 +72,6 @@ p{
   font-size: 1.2em;
 }
 
-.Show{
-  color: black;
-  text-align: left;
-  float: left;
-  width: 66%;
-  margin-top: none;
-  margin-bottom: none;
-
-}
 
 .Fact{
   margin-top: 10px;
@@ -97,35 +89,28 @@ p{
 #P1{
   display: block;
 }
-#P2{
-  display: inline-block;
-}
 
-#P3{
-  display: inline-block;
-}
-
-#P4{
-  display: inline-block;
-}
-
-#P5{
-  display: inline-block;
-}
 
 @media (max-width: 765px){
-body{
-  background: #f36821;
-  background-image: none;
-}
+  body{
+    font-family: 'Source Sans Pro', sans-serif, "Courier New", helvetica, arial;
+    color: #333333;
+    background: #f36821;
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-right: 0px;
+  }
+
 main{
+  width: 90%;
+  margin-left:5%;
   margin-right: 5%;
-  margin-left: 5%;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
   padding-top: 2%;
   background: white;
   padding-bottom: 10px;
 }
 
+.GIF{
+  width: 100%
+}
 }
