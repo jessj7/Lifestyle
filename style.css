@@ -22,7 +22,7 @@ main{
   padding-bottom: 10px;
 }
 .GIF{
-  width: 100%
+  width: 100%;
   padding-top: 5px;
 }
 }
@@ -79,10 +79,25 @@ p{
   color: black;
   text-align: left;
   float: right;
+  width: 30%;
+  padding: 4px;
+  border-radius: 25px;
+  border:4px solid #000;
+  font-size: 0.8em;
+
+}
+
+.Fact1{
+  margin-top: 10px;
+  margin-bottom: none;
+  color: black;
+  text-align: left;
+  float: right;
   width: 40%;
   padding: 4px;
   border-radius: 25px;
   border:4px solid #000;
+  font-size: 0.8em;
 
 }
 
@@ -115,7 +130,7 @@ main{
 }
 
 .GIF{
-  width: 100%
+  width: 100%;
   padding-top: 5px;
 }
 }
